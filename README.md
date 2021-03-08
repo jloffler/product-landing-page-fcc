@@ -9,9 +9,9 @@
 # freeCodeCamp Product Landing Page Project
 
 ## Live site on GitHub Pages
-- Incomplete:
-  - 
-- project completion date
+ - Incomplete:
+  - . 
+ - project completion date
  
 ### Project: Product Landing Page
 freeCodeCamp - https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
