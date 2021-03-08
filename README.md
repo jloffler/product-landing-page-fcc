@@ -5,6 +5,9 @@
  - code basic structure in html
  - brainstorm product ideas
  - design rough layout on paper
+ - make nav hamburger menu
+ - use color chooser to pick site colors
+   - css tricks color
  - add favicon
 
 # freeCodeCamp Product Landing Page Project
