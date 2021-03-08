@@ -10,7 +10,7 @@
 
 ## Live site on GitHub Pages
 - Incomplete:
- - 
+  - 
 - project completion date
  
 ### Project: Product Landing Page
