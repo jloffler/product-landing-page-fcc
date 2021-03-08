@@ -11,6 +11,8 @@ Swatch colours
 body {
   width: 100%;
   font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 * {
@@ -23,7 +25,8 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: blue;
+  background-color: white;
+  color: black;
 }
 
 /* Need to change class to ID to edit actual image */
@@ -35,4 +38,27 @@ header {
 
 #nav-bar {
   margin-left: auto;
+}
+
+.features {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+
+.feature-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-wrap img {
+  width: calc(50%-2.5vw);
+  height: auto;
+}
+
+.feature-wrap div {
+  padding: 0 5vw;
 }

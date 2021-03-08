@@ -1,13 +1,11 @@
 # Current task
- - 
+ - Find pictures to use
 
 # ToDo
- - code basic structure in html
- - brainstorm product ideas
- - design rough layout on paper
+ - Find video to use (probably landscape montage)
+ - Think of elevator pitch
+ - Write copy for subscription based stock image site
  - make nav hamburger menu
- - use color chooser to pick site colors
-   - css tricks color
  - add favicon
 
 # freeCodeCamp Product Landing Page Project
@@ -28,7 +26,7 @@ Build a website using HTML and CSS that is functionally similar to https://codep
  - Make it actually look good
  
 ## Things I learned
-- 
+- How to use CSS calc() function
 
 ### Bibliography
 - 
