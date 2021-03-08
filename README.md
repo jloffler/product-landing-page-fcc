@@ -1,10 +1,11 @@
 # Current task
-- 
+ - 
 
 # ToDo
-- code basic structure in html
-- brainstorm product ideas
-- design rough layout on paper
+ - code basic structure in html
+ - brainstorm product ideas
+ - design rough layout on paper
+ - add favicon
 
 # freeCodeCamp Product Landing Page Project
 
