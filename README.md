@@ -6,6 +6,7 @@
  - Think of elevator pitch
  - Write copy for subscription based stock image site
  - make nav hamburger menu
+ - Use camera as icon and logo
  - add favicon
 
 # freeCodeCamp Product Landing Page Project
