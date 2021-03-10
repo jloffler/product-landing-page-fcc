@@ -8,6 +8,7 @@
  - make nav hamburger menu
  - Use camera as icon and logo
  - add favicon
+ - remove .gitignore /img/ add images to version control
 
 # freeCodeCamp Product Landing Page Project
 
