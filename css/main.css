@@ -4,8 +4,13 @@ March 2021
 Written for - freeCodeCamp Product Landing Page Project
 
 Swatch colours
-*
-*
+Main
+* color: white;
+* background: black;
+
+Alternate
+* color: black;
+* background: white;
 === === === */
 
 body {
@@ -43,7 +48,6 @@ header {
 .features {
   background-color: white;
   color: black;
-  padding: 1rem;
 }
 
 .feature-wrap {
@@ -60,11 +64,22 @@ header {
 }
 
 .feature-wrap img {
-  width: calc(50% - 2.5vw);
+  display: block;
+  width: 100%;
   height: auto;
 }
 
 .feature-wrap div {
-  padding: 0 3vw;
-  max-width: calc(50% - 2.5vw);
+  padding: 3vw;
+}
+
+/* Responsive Layout */
+@media all and (min-width: 750px) {
+  .feature-wrap img {
+    width: calc(50% - 2.5vw);
+  }
+
+  .feature-wrap div {
+    max-width: calc(50% - 2.5vw);
+  }
 }
