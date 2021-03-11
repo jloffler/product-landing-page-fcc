@@ -54,11 +54,17 @@ header {
   align-items: center;
 }
 
+/* Every second image appears before the description text */
+.feature-wrap:nth-of-type(even) {
+  flex-direction: row;
+}
+
 .feature-wrap img {
-  width: calc(50%-2.5vw);
+  width: calc(50% - 2.5vw);
   height: auto;
 }
 
 .feature-wrap div {
-  padding: 0 5vw;
+  padding: 0 3vw;
+  max-width: calc(50% - 2.5vw);
 }
