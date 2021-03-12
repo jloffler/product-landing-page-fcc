@@ -1,16 +1,13 @@
 # Current task
- - 
+ - style email sign up copy 
 
 # ToDo
- - Style video
- - Think of elevator pitch
-   - (upper) Tired of falling asleep at the monitor?
-     We'll send vibrant computer wallpapers directly to your screen every week.
-     Sign up today!
-   - (lower) Ready to kick your old wallpaper to the recycle bin? Sign up now!
- - Write copy for subscription based stock image site
+   - style email form
+   - style video heading and text
+   - style nav desktop
  - make (accessible) nav hamburger menu
- - Use camera as icon and logo
+ - Use camera as icon and logo and favicon
+ - Write copy for subscription based stock image site
  - add favicon
  - remove .gitignore /img/ add images to version control
 
@@ -32,8 +29,8 @@ Build a website using HTML and CSS that is functionally similar to https://codep
  - Make it actually look good
  
 ## Things I learned
-- How to use CSS calc() function
-- nth-of-type() css function
+- calc() CSS function
+- nth-of-type() CSS function
 - alt="" for images that are purely decoration
 - embed a video
 

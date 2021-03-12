@@ -13,6 +13,8 @@ Alternate
 * background: white;
 === === === */
 
+/* BASIC STYLES */
+
 body {
   width: 100%;
   font-family: Arial, sans-serif;
@@ -26,6 +28,28 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.65rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* *** LAYOUT *** */
 
 header {
   display: flex;
@@ -44,6 +68,22 @@ header {
 
 #nav-bar {
   margin-left: auto;
+}
+
+.heading {
+  margin: 5rem auto 2rem auto;
+}
+
+.sub-heading {
+  margin: 2rem auto 1rem auto;
+}
+
+.sign-up-heading {
+  margin: 1rem auto 0.5rem auto;
+}
+
+.email-form {
+  
 }
 
 .features {
