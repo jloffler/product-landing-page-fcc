@@ -13,59 +13,63 @@
 </head>
 
 <body>
-  <header id="header">
+<header id="header">
 <!-- navbar must stay at the top -->
 <!-- use css flexbox in the nav -->
-    <div class="header-img-div"><img id="header-img"></div>
-    <h1 id="title">Product-XYZ</h1>
-    <nav id="nav-bar">
-      <a class="nav-link" href="#top">Top</a>
-      <a class="nav-link" href="#video">Video</a>
-      <a class="nav-link" href="#form">Sign up</a>
-      <a class="nav-link" href="#buy">Buy Now!</a>
-      <!-- at least 3 clickable elements in the nav -->
-      <!-- each with the class="nav-link" -->
-      <!-- when a .nav-link button is clicked it takes you to
-          the corresponding part of the page -->
-    </nav> <!-- #nav-bar -->
-  </header>
+  <div class="header-img-div"><img id="header-img"></div>
+  <h1 id="title">Product-XYZ</h1>
+  <nav id="nav-bar">
+    <a class="nav-link" href="#top">Top</a>
+    <a class="nav-link" href="#video">Video</a>
+    <a class="nav-link" href="#form">Sign up</a>
+    <a class="nav-link" href="#buy">Buy Now!</a>
+    <!-- at least 3 clickable elements in the nav -->
+    <!-- each with the class="nav-link" -->
+    <!-- when a .nav-link button is clicked it takes you to
+        the corresponding part of the page -->
+  </nav> <!-- #nav-bar -->
+</header>
 
 <!-- Do these need to be linked to the form somehow? look at survey project -->
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input type="email" id="email" required placeholder="your@email.com">
-    <input type="submit" id="submit">Sign Up Now!</button>
-  </form> <!-- .sign-up-form -->
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input type="email" id="email" required placeholder="your@email.com">
+  <input type="submit" id="submit">Sign Up Now!</button>
+</form> <!-- .sign-up-form -->
 
-  <section class="features">
-    <div class="feature-wrap">
-      <img src="/img/antelope-canyon-pexels-paul-ijsendoorn.jpg" alt=""
-           width="960px" height="720px">
-      <div>
-        <h2>Heading 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
-      </div>
+<section class="features">
+  <div class="feature-wrap">
+    <img src="/img/antelope-canyon-pexels-paul-ijsendoorn.jpg" alt=""
+         width="960px" height="720px">
+    <div>
+      <h2>Heading 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
     </div>
-    <div class="feature-wrap">
-      <img src="/img/star-swirl-pexels-faaiq-ackmerd.jpg" alt="" width="960px"
-           height="720px">
-      <div>
-        <h2>Heading 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo</p>
-      </div>
+  </div>
+  <div class="feature-wrap">
+    <img src="/img/star-swirl-pexels-faaiq-ackmerd.jpg" alt="" width="960px"
+         height="720px">
+    <div>
+      <h2>Heading 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo</p>
     </div>
-    <div class="feature-wrap">
-      <img src="/img/stream-pexels-michael-block.jpg" alt="" width="960px" height="720px">
-      <div>
-        <h2>Heading 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
-      </div>
+  </div>
+  <div class="feature-wrap">
+    <img src="/img/stream-pexels-michael-block.jpg" alt="" width="960px" height="720px">
+    <div>
+      <h2>Heading 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
     </div>
-  </section> <!-- .features -->
+  </div>
+</section> <!-- .features -->
 
-<video id="video" width="1280px" height="720px" controls muted>
-  <source src="/img/video-waves.mp4" type="video/mp4">
-  Your browser does not support mp4 video playback.
-</video>
+<section class="video-section">
+  <video id="video" width="1280px" height="720px" controls muted>
+    <source src="/img/video-waves.mp4" type="video/mp4">
+    Your browser does not support mp4 video playback.
+  </video>
+  <img class="video-splash" src="/img/waves-splash.jpg" width="0px"
+       height="0px" alt="">
+</section>
 
 <!-- button that takes you back up to the top to sign up -->
 </body>

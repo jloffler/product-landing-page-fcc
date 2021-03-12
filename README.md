@@ -1,14 +1,15 @@
 # Current task
- - Add video html
+ - 
 
 # ToDo
+ - Style video
  - Think of elevator pitch
    - (upper) Tired of falling asleep at the monitor?
      We'll send vibrant computer wallpapers directly to your screen every week.
      Sign up today!
    - (lower) Ready to kick your old wallpaper to the recycle bin? Sign up now!
  - Write copy for subscription based stock image site
- - make nav hamburger menu
+ - make (accessible) nav hamburger menu
  - Use camera as icon and logo
  - add favicon
  - remove .gitignore /img/ add images to version control
@@ -34,6 +35,7 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 - How to use CSS calc() function
 - nth-of-type() css function
 - alt="" for images that are purely decoration
+- embed a video
 
 ### Bibliography
 - 
