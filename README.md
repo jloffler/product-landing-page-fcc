@@ -1,11 +1,12 @@
 # Current task
- - style email sign up copy 
+ - layout video heading and text
 
 # ToDo
-   - style email form
-   - style video heading and text
-   - style nav desktop
+ - Style mobile font sizes and weights
+ - style nav desktop
+ - style form elements when hover, focus, etc
  - make (accessible) nav hamburger menu
+ - style nav mobile
  - Use camera as icon and logo and favicon
  - Write copy for subscription based stock image site
  - add favicon
