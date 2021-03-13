@@ -30,22 +30,22 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
-h3 {
-  font-size: 1.65rem;
+h3, .email-submit {
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -106,7 +106,7 @@ header {
 }
 
 .email-submit {
-  font-size: 1.4rem;
+  /*font-size: 1.4rem;*/
   background-color: grey;
   color: white;
   font-weight: 500;
@@ -140,7 +140,7 @@ header {
 }
 
 .feature-wrap div {
-  padding: 3vw;
+  padding: 6vw;
 }
 
 .video-wrap {
@@ -183,7 +183,7 @@ header {
     font-weight: 400;
   }
 
-  p {
+  p, .email-submit {
     font-size: 1.4rem;
     font-weight: 400;
   }
@@ -194,6 +194,7 @@ header {
 
   .feature-wrap div {
     width: calc(50% - 2.5vw);
+    padding: 3vw;
   }
 
   .email-form {

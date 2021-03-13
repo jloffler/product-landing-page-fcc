@@ -2,7 +2,6 @@
  - layout video heading and text
 
 # ToDo
- - Style mobile font sizes and weights
  - style nav desktop
  - style form elements when hover, focus, etc
  - make (accessible) nav hamburger menu
