@@ -1,8 +1,7 @@
 # Current task
- - layout video heading and text
+ - style nav desktop
 
 # ToDo
- - style nav desktop
  - style form elements when hover, focus, etc
  - make (accessible) nav hamburger menu
  - style nav mobile

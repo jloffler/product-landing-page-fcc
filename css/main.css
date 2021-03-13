@@ -14,6 +14,9 @@ Alternate
 === === === */
 
 /* BASIC STYLES */
+html {
+  font-size: max(16px, 1rem); /* Use 16px or browser spec if larger */
+}
 
 body {
   width: 100%;
@@ -50,7 +53,6 @@ p {
 }
 
 /* *** MOBILE LAYOUT (<750px) *** */
-
 header {
   display: flex;
   flex-direction: row;
@@ -71,15 +73,15 @@ header {
 }
 
 .heading {
-  margin: 5rem auto 2rem auto;
+  margin: 5rem 7vw 2rem 7vw;
 }
 
 .sub-heading {
-  margin: 2rem auto 1rem auto;
+  margin: 2rem 7vw 1rem 7vw;
 }
 
 .sign-up-heading {
-  margin: 1rem auto 0 auto;
+  margin: 2rem 7vw 0 7vw;
 }
 
 .email-form {
@@ -164,6 +166,10 @@ header {
   height: 100%;
   z-index: -1;
   opacity: 0.5;
+}
+
+.video-heading, .video-p {
+  margin: 0.5em 7vw;
 }
 
 /* Desktop Layout (=>750px) */
