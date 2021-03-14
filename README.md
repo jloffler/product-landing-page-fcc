@@ -2,13 +2,22 @@
  - style nav desktop
 
 # ToDo
- - style form elements when hover, focus, etc
+ - style all link states
+ - Use camera as icon and logo and favicon
  - make (accessible) nav hamburger menu
  - style nav mobile
- - Use camera as icon and logo and favicon
- - Write copy for subscription based stock image site
+ - add smooth scrolling to in page links
  - add favicon
+ - style form elements when hover, focus, etc
+ - add footer with links to
+   - my github
+   - photo and video reference
+   - icon reference
+ - Make "sign-up" nav link scroll to closest...top, or bottom
+   OR
+   Make it open a dialogue box in the center of the screen
  - remove .gitignore /img/ add images to version control
+ - Write copy for subscription based stock image site
 
 # freeCodeCamp Product Landing Page Project
 
@@ -33,7 +42,7 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 - alt="" for images that are purely decoration
 - embed a video
 
-### Bibliography
+### References
 - 
 
 ### Tasks Left Unfinished Due to Time Constraints

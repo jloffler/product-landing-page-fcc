@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body id="body">
 <header id="header">
 <!-- navbar must stay at the top -->
 <!-- use css flexbox in the nav -->
@@ -20,9 +20,10 @@
   <p>Product-XYZ</p>
   <nav id="nav-bar">
     <a class="nav-link" href="#top">Top</a>
+    <a class="nav-link" href="#features">Features</a>
     <a class="nav-link" href="#video">Video</a>
-    <a class="nav-link" href="#form">Sign up</a>
-    <a class="nav-link" href="#buy">Buy Now!</a>
+    <a class="nav-link" href="#footer">Footer</a>
+    <a class="nav-link" href="#sign-up-heading">Sign up</a>
     <!-- at least 3 clickable elements in the nav -->
     <!-- each with the class="nav-link" -->
     <!-- when a .nav-link button is clicked it takes you to
@@ -30,9 +31,11 @@
   </nav> <!-- #nav-bar -->
 </header>
 
-<h1 class="heading">Site Name</h1>
+<h1 class="heading">Product-XYZ</h1>
 <h2 class="sub-heading">Vibrant computer wallpapers direct to your screen.</h2>
-<h3 class="sign-up-heading">Tired of falling asleep at the monitor? Sign up below.</h3>
+<h3 class="sign-up-heading" id="sign-up-heading">
+  Tired of falling asleep at the monitor? Sign up below.
+</h3>
 
 <!-- Do these need to be linked to the form somehow? look at survey project -->
 <form id="form" class="email-form" action="https://www.freecodecamp.com/email-submit">
@@ -47,7 +50,7 @@
   <input type="submit" id="submit" class="email-submit" value="Get Started!">
 </form>
 
-<section class="features">
+<section class="features" id="features">
   <div class="feature-wrap">
     <img src="/img/antelope-canyon-pexels-paul-ijsendoorn.jpg" alt=""
          width="960px" height="720px">
@@ -83,8 +86,8 @@
 </div> <!-- .video-wrap -->
 <h2 class="video-heading">Animated Wallpapers</h2>
 <p class="video-p">Loren ipsum dolar sit amet, consectetur adipiscing elit, sed do</p>
-
 <h3 class="sign-up-heading">Ready to kick your old wallpaper to the recycle bin? Sign up below!</h3>
+
 <!-- Do these need to be linked to the form somehow? look at survey project -->
 <form class="email-form" action="https://www.freecodecamp.com/email-submit">
   <input
@@ -95,6 +98,9 @@
     autocomplete="email"
     inputmode="email">
   <input type="submit" class="email-submit" value="Get Started!">
-</form>
+</form> <!-- .email-form -->
+<footer class="footer" id="footer">
+  <a class="nav-link" href="#body">Top</a>
+</footer> <!-- .footer -->
 </body>
 </html>
