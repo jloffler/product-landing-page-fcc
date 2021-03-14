@@ -3,14 +3,18 @@ jloffler
 March 2021
 Written for - freeCodeCamp Product Landing Page Project
 
-Swatch colours
-Main
+Swatch colours:
+Main:
 * color: white;
 * background: black;
 
-Alternate
+Secondary:
 * color: black;
 * background: white;
+
+Third colours:
+* color: white;
+* background: grey;
 === === === */
 
 /* BASIC STYLES */
@@ -57,9 +61,11 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: white;
-  color: black;
+  background-color: grey;
+  color: white;
 }
+
+/* header link style? */
 
 /* Need to change class to ID to edit actual image */
 .header-img-div {
