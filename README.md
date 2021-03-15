@@ -6,8 +6,10 @@
  - Use camera as icon and logo and favicon
  - make (accessible) nav hamburger menu
  - style nav mobile
+ - adjust in-page links for nav-menu height...
  - add smooth scrolling to in page links
  - add favicon
+ - add id="top" to an element just after <body> for going to top
  - style form elements when hover, focus, etc
  - add footer with links to
    - my github

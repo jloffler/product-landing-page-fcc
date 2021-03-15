@@ -12,19 +12,25 @@
 <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body id="body">
+<body>
+<a id="top"></a>
 <header id="header">
 <!-- navbar must stay at the top -->
 <!-- use css flexbox in the nav -->
-  <div class="header-img-div"><img id="header-img"></div>
-  <p>Product-XYZ</p>
+  <!-- Change index.html to website url -->
+  <a class="homepage-link" href="index.html">
+    <img id="header-img" width="25px" height="25px">
+    Product-XYZ
+  </a>
   <!-- Might have to make header the nav-bar to pass -->
-  <nav id="nav-bar">
-    <a class="nav-link" href="#top">Top</a>
-    <a class="nav-link" href="#features">Features</a>
-    <a class="nav-link" href="#video">Video</a>
-    <a class="nav-link" href="#footer">Footer</a>
-    <a class="nav-link" href="#sign-up-heading">Sign up</a>
+  <nav id="nav-bar" role="navigation">
+    <ul>
+      <li><a class="nav-link" href="#top">Top</a></li>
+      <li><a class="nav-link" href="#features">Features</a></li>
+      <li><a class="nav-link" href="#video">Video</a></li>
+      <li><a class="nav-link" href="#footer">Footer</a></li>
+      <li><a class="nav-link" href="#sign-up-heading">Sign up</a></li>
+    </ul>
     <!-- at least 3 clickable elements in the nav -->
     <!-- each with the class="nav-link" -->
     <!-- when a .nav-link button is clicked it takes you to
@@ -101,7 +107,7 @@
   <input type="submit" class="email-submit" value="Get Started!">
 </form> <!-- .email-form -->
 <footer class="footer" id="footer">
-  <a class="nav-link" href="#body">Top</a>
+  <a class="nav-link" href="#top">Top</a>
 </footer> <!-- .footer -->
 </body>
 </html>

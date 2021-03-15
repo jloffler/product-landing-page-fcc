@@ -20,6 +20,7 @@ Third colours:
 /* BASIC STYLES */
 html {
   font-size: max(16px, 1rem); /* Use 16px or browser spec if larger */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,9 +29,11 @@ body {
   background-color: black;
   color: white;
   text-align: center;
+  position: relative;
+  padding-top: 38.2px;
 }
 
-* {
+*, a {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -58,27 +61,85 @@ p {
 
 /* *** MOBILE LAYOUT (<750px) *** */
 header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   background-color: grey;
   color: white;
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /* header link style? */
 
 /* Need to change class to ID to edit actual image */
-.header-img-div {
+.homepage-link {
+  display:;
+  position: relative;
+  padding: 10px 0 10px 45px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.homepage-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#header-img {
   width: 25px;
   height: 25px;
   background-color: red;
+  position: absolute;
+  left: 10px;
+  /* Centre vertically */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #nav-bar {
   margin-left: auto;
 }
 
+#nav-bar > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.nav-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+  padding-bottom: calc(7px);
+  border-bottom: 3px solid white;
+}
+
+.nav-link:active {
+  color: black;
+  border-color: black;
+}
+
 .heading {
+  /*padding-top: 7rem;*/
   margin: 5rem 7vw 2rem 7vw;
 }
 
