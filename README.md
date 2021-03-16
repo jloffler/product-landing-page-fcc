@@ -1,15 +1,14 @@
 # Current task
- - style nav desktop
+ - make (accessible) nav hamburger menu
 
 # ToDo
- - style all link states
- - Use camera as icon and logo and favicon
- - make (accessible) nav hamburger menu
  - style nav mobile
+ - size header image, text, hamburger icon using rem, em units
+ - make it max width for devices with 350px?
  - adjust in-page links for nav-menu height...
- - add smooth scrolling to in page links
+ - hamburger is NOT keyboard selectable right now
+ - Use camera as icon and logo and favicon
  - add favicon
- - add id="top" to an element just after <body> for going to top
  - style form elements when hover, focus, etc
  - add footer with links to
    - my github
@@ -19,6 +18,7 @@
    OR
    Make it open a dialogue box in the center of the screen
  - remove .gitignore /img/ add images to version control
+ - Come up with actual product title
  - Write copy for subscription based stock image site
 
 # freeCodeCamp Product Landing Page Project

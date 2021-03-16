@@ -78,7 +78,7 @@ header {
 
 /* Need to change class to ID to edit actual image */
 .homepage-link {
-  display:;
+  /*display:;*/
   position: relative;
   padding: 10px 0 10px 45px;
   color: white;
@@ -107,11 +107,59 @@ header {
   margin-left: auto;
 }
 
-#nav-bar > ul {
+#menuToggle {
+  display: block;
+  position: relative;
+  margin: 5px 5px 0 0;
+  z-index: 2;
+}
+
+#menuToggle input {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 3;
+}
+
+#menuToggle span {
+  display: block;
+  width: 27px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#menu {
+  position: absolute;
+  width: 300px;
+  /*margin: -100px 0 0 -50px;*/
+  padding: 50px;
+  padding-top: 125px;
+  background-color: grey;
+  
+  right: -300px;
+
+  /*
+  transform-origin: 0% 0%; /* necessary for transform */
+/*  transform: translate(-100%, 0);
+*/
+
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: left;
   list-style-type: none;
+}
+
+#menuToggle input:checked ~ ul {
+  /*transform: none;*/
+  right: 0;
 }
 
 .nav-link {
@@ -260,6 +308,43 @@ header {
     font-size: 1.4rem;
     font-weight: 400;
   }
+/*
+*
+*
+*
+*
+*/
+/* need to edit everything nav */
+  #nav-bar > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+  .nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+
+  .nav-link:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-link:hover, .nav-link:active, .nav-link:focus {
+    padding-bottom: calc(7px);
+    border-bottom: 3px solid white;
+  }
+
+  .nav-link:active {
+    color: black;
+    border-color: black;
+  }
 
   .feature-wrap img {
     width: calc(50% - 2.5vw);
@@ -287,4 +372,4 @@ header {
   .email-submit {
     margin: 0;
   }
-}
+} 

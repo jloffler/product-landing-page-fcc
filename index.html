@@ -24,17 +24,19 @@
   </a>
   <!-- Might have to make header the nav-bar to pass -->
   <nav id="nav-bar" role="navigation">
-    <ul>
-      <li><a class="nav-link" href="#top">Top</a></li>
-      <li><a class="nav-link" href="#features">Features</a></li>
-      <li><a class="nav-link" href="#video">Video</a></li>
-      <li><a class="nav-link" href="#footer">Footer</a></li>
-      <li><a class="nav-link" href="#sign-up-heading">Sign up</a></li>
-    </ul>
-    <!-- at least 3 clickable elements in the nav -->
-    <!-- each with the class="nav-link" -->
-    <!-- when a .nav-link button is clicked it takes you to
-        the corresponding part of the page -->
+    <div class="nav-button" id="menuToggle">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul class="nav-list" id="menu">
+        <li><a class="nav-link" href="#top">Top</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#video">Video</a></li>
+        <li><a class="nav-link" href="#footer">Footer</a></li>
+        <li><a class="nav-link" href="#sign-up-heading">Sign up</a></li>
+      </ul>
+    </div> <!-- .menu-button -->
   </nav> <!-- #nav-bar -->
 </header>
 
