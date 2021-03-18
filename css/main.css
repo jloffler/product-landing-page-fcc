@@ -19,7 +19,7 @@ Third colours:
 
 /* BASIC STYLES */
 html {
-  font-size: max(16px, 1rem); /* Use 16px or browser spec if larger */
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
@@ -107,14 +107,14 @@ header {
   margin-left: auto;
 }
 
-#menuToggle {
+.hamburger {
   display: block;
   position: relative;
   margin: 5px 5px 0 0;
   z-index: 2;
 }
 
-#menuToggle input {
+.hamburger input {
   display: block;
   width: 30px;
   height: 30px;
@@ -124,7 +124,7 @@ header {
   z-index: 3;
 }
 
-#menuToggle span {
+.hamburger span {
   display: block;
   width: 27px;
   height: 4px;
@@ -135,30 +135,21 @@ header {
   border-radius: 3px;
 }
 
-#menu {
+.nav-list {
   position: absolute;
   width: 300px;
-  /*margin: -100px 0 0 -50px;*/
   padding: 50px;
   padding-top: 125px;
   background-color: grey;
-  
-  right: -300px;
-
-  /*
-  transform-origin: 0% 0%; /* necessary for transform */
-/*  transform: translate(-100%, 0);
-*/
-
+  right: -300px; /* Moves menu off-screen */
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: left;
   list-style-type: none;
 }
 
-#menuToggle input:checked ~ ul {
-  /*transform: none;*/
+.hamburger input:checked ~ ul {
   right: 0;
 }
 
@@ -315,11 +306,30 @@ header {
 *
 */
 /* need to edit everything nav */
-  #nav-bar > ul {
-    display: flex;
+  .hamburger {
+    /*position: relative;*/
+    margin: 0;
+  }
+
+  /* Hide hamburger checkbox and icon */
+  /* Stop from being selectable */
+  .hamburger input,
+  .hamburger span {
+    display: none;     
+  }
+
+  .nav-list {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
     flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+    /*list-style-type: none;*/
+
   }
 
   .nav-link {

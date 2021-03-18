@@ -1,25 +1,26 @@
 # Current task
- - make (accessible) nav hamburger menu
+ - style nav mobile
+   - make it max width for devices with 350px?
+   - what should widths be
 
 # ToDo
- - style nav mobile
- - size header image, text, hamburger icon using rem, em units
- - make it max width for devices with 350px?
- - adjust in-page links for nav-menu height...
- - hamburger is NOT keyboard selectable right now
+ - Add accessibility to hamburger menu
+   - hamburger is NOT keyboard selectable right now
+ - hamburger: turn into an X to close
  - Use camera as icon and logo and favicon
  - add favicon
  - style form elements when hover, focus, etc
+ - adjust in-page links for nav-menu height...
  - add footer with links to
    - my github
    - photo and video reference
    - icon reference
  - Make "sign-up" nav link scroll to closest...top, or bottom
-   OR
-   Make it open a dialogue box in the center of the screen
- - remove .gitignore /img/ add images to version control
+     OR
+     Make it open a dialogue box in the center of the screen
  - Come up with actual product title
  - Write copy for subscription based stock image site
+ - remove .gitignore /img/ add images to version control
 
 # freeCodeCamp Product Landing Page Project
 
