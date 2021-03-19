@@ -111,7 +111,7 @@ header {
   display: block;
   position: relative;
   margin: 5px 5px 0 0;
-  z-index: 2;
+  z-index: 20;
 }
 
 .hamburger input {
@@ -121,7 +121,7 @@ header {
   position: absolute;
   cursor: pointer;
   opacity: 0;
-  z-index: 3;
+  z-index: 40;
 }
 
 .hamburger span {
@@ -130,27 +130,29 @@ header {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  z-index: 2;
+  z-index: 30;
   background-color: white;
   border-radius: 3px;
 }
 
 .nav-list {
   position: absolute;
-  width: 300px;
-  padding: 50px;
-  padding-top: 125px;
+  /*width: 300px;*/
+  padding: 24px 0;
+  /*padding-top: 125px;*/
   background-color: grey;
-  right: -300px; /* Moves menu off-screen */
+  right: -1000px; /* Moves menu off-screen */
+  text-align: left;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: left;
+  /*align-items: left;*/
+  justify-content: left;
   list-style-type: none;
 }
 
 .hamburger input:checked ~ ul {
-  right: 0;
+  right: -5px;
 }
 
 .nav-link {
@@ -158,7 +160,7 @@ header {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px 16px;
+  padding: 16px 80px 16px 40px;
   cursor: pointer;
 }
 
@@ -168,7 +170,7 @@ header {
 }
 
 .nav-link:hover, .nav-link:active, .nav-link:focus {
-  padding-bottom: calc(7px);
+  padding-bottom: calc(16px - 3px);
   border-bottom: 3px solid white;
 }
 
