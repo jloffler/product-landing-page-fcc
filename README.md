@@ -1,12 +1,8 @@
 # Current task
- - style nav mobile
-   - make it max width for devices with 350px?
-   - what should widths be
-
-# ToDo
  - Add accessibility to hamburger menu
    - hamburger is NOT keyboard selectable right now
- - hamburger: turn into an X to close
+
+# ToDo
  - Use camera as icon and logo and favicon
  - add favicon
  - style form elements when hover, focus, etc
