@@ -1,9 +1,9 @@
 # Current task
  - Add accessibility to hamburger menu
-   - hamburger is NOT keyboard selectable right now
+   - hamburger is NOT keyboard selectable right now (it is by spaceebar, not by enter...)
+   - nav menu is focusable, even when hidden!
 
 # ToDo
- - Use camera as icon and logo and favicon
  - add favicon
  - style form elements when hover, focus, etc
  - adjust in-page links for nav-menu height...
@@ -14,8 +14,6 @@
  - Make "sign-up" nav link scroll to closest...top, or bottom
      OR
      Make it open a dialogue box in the center of the screen
- - Come up with actual product title
- - Write copy for subscription based stock image site
  - remove .gitignore /img/ add images to version control
 
 # freeCodeCamp Product Landing Page Project
@@ -40,9 +38,18 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 - nth-of-type() CSS function
 - alt="" for images that are purely decoration
 - embed a video
+- create a pure CSS hamburger menu using a checkbox
+  - even though this is a poor use of a checkbox, and CSS
+  - this should really be done with JS, then the menu can be closed upon clicking a link, etc
+- anchor link to specific page elements
+- change svg image color in a text editor
+- 
 
 ### References
-- 
+- mountain icon
+  - https://www.flaticon.com/free-icon/mountains_852115
+  - <div>Mountain icon made by <a href="https://www.freepik.com">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a></div>
+- photos
 
 ### Tasks Left Unfinished Due to Time Constraints
 - 

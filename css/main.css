@@ -92,7 +92,8 @@ header {
 #header-img {
   width: 25px;
   height: 25px;
-  background-color: red;
+  /*background-color: red;*/
+  color: white;
   position: absolute;
   left: 10px;
   /* Centre vertically */
