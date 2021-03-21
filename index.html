@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-CA">
 
 <head>
@@ -21,12 +22,16 @@
   <!-- Might have to make header the nav-bar to pass -->
   <nav id="nav-bar" role="navigation">
     <div class="hamburger">
-      <input type="checkbox">
+      <input type="checkbox" aria-hidden="true">
+        <!--
+          Hide checkbox for screen readers. This way of doing the hamburger menu
+          is not ideal. JS in the future.
+        -->
       <span></span>
       <span></span>
       <span></span>
       <ul class="nav-list">
-        <li><a class="nav-link" href="#top">Topk</a></li>
+        <li><a class="nav-link" href="#top">Top</a></li>
         <li><a class="nav-link" href="#features">Features</a></li>
         <li><a class="nav-link" href="#video">Video</a></li>
         <li><a class="nav-link" href="#footer">Footer</a></li>
@@ -106,6 +111,8 @@
 </form> <!-- .email-form -->
 <footer class="footer" id="footer">
   <a class="nav-link" href="#top">Top</a>
+  <div>Mountain icon made by <a href="https://www.freepik.com">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a></div>
 </footer> <!-- .footer -->
 </body>
+
 </html>

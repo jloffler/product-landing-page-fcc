@@ -4,7 +4,6 @@
    - nav menu is focusable, even when hidden!
 
 # ToDo
- - add favicon
  - style form elements when hover, focus, etc
  - adjust in-page links for nav-menu height...
  - add footer with links to
@@ -43,6 +42,8 @@ Build a website using HTML and CSS that is functionally similar to https://codep
   - this should really be done with JS, then the menu can be closed upon clicking a link, etc
 - anchor link to specific page elements
 - change svg image color in a text editor
+- tip of the iceberg for accessibility and screen readers
+  - aria
 - 
 
 ### References
@@ -52,4 +53,5 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 - photos
 
 ### Tasks Left Unfinished Due to Time Constraints
-- 
+- accessibility for hamburger menu button
+  - should change look on :focus for keyboard only users
