@@ -1,10 +1,6 @@
 # Current task
- - Add accessibility to hamburger menu
-   - hamburger is NOT keyboard selectable right now (it is by spaceebar, not by enter...)
-   - nav menu is focusable, even when hidden!
 
 # ToDo
- - style form elements when hover, focus, etc
  - adjust in-page links for nav-menu height...
  - add footer with links to
    - my github

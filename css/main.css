@@ -220,11 +220,15 @@ header {
   width: 100%;
   margin: 0.6rem 0;
 }
-
+  
 .email-submit {
   background-color: grey;
   color: white;
   font-weight: 500;
+  cursor: pointer;
+}
+.email-submit:hover {
+  background-color: darkgrey;
 }
 
 .features {
