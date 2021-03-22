@@ -97,7 +97,6 @@ header {
 #header-img {
   width: 25px;
   height: 25px;
-  /*background-color: red;*/
   color: white;
   position: absolute;
   left: 10px;
@@ -156,14 +155,14 @@ header {
   right: -5px;
 }
 .hamburger input:checked ~ span:nth-of-type(1) {
-  background-color: red;
+  background-color: black;
   transform: translate(0, 9px) rotate(45deg);
 }
 .hamburger input:checked ~ span:nth-of-type(2) {
   opacity: 0;
 }
 .hamburger input:checked ~ span:nth-of-type(3) {
-  background-color: red;
+  background-color: black;
   transform: translate(0, -9px) rotate(-45deg);
 }
 
