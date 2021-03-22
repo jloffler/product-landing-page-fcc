@@ -59,6 +59,11 @@ p {
   font-weight: 400;
 }
 
+/* Make jump links compensate for fixed header height */
+:target {
+  scroll-margin-top: 39px;
+}
+
 /* *** MOBILE LAYOUT (<750px) *** */
 header {
   background-color: grey;

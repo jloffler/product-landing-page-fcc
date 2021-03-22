@@ -1,15 +1,11 @@
 # Current task
 
 # ToDo
- - adjust in-page links for nav-menu height...
  - add footer with links to
    - my github
    - photo and video reference
    - icon reference
- - Make "sign-up" nav link scroll to closest...top, or bottom
-     OR
-     Make it open a dialogue box in the center of the screen
- - remove .gitignore /img/ add images to version control
+ - style footer and links
 
 # freeCodeCamp Product Landing Page Project
 
