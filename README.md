@@ -1,13 +1,8 @@
-# Current task
-
-# ToDo
-
 # freeCodeCamp Product Landing Page Project
 
 ## Live site on GitHub Pages
- - Incomplete:
-  - . 
- - project completion date
+ - https://jloffler.github.io/product-landing-page-fcc/
+ - March 2021
  
 ### Project: Product Landing Page
 freeCodeCamp - https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
@@ -15,6 +10,7 @@ freeCodeCamp - https://www.freecodecamp.org/learn/responsive-web-design/responsi
 Build a website using HTML and CSS that is functionally similar to https://codepen.io/freeCodeCamp/full/RKRbwL
 
 ## Goals
+ - Pass freeCodeCamp tests
  - Use semantic and accesible HTML
  - Make it responsive
  - Make it actually look good
@@ -31,7 +27,6 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 - change svg image color in a text editor
 - tip of the iceberg for accessibility and screen readers
   - aria
-- 
 
 ### References
 - mountain icon
