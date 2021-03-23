@@ -1,11 +1,6 @@
 # Current task
 
 # ToDo
- - add footer with links to
-   - my github
-   - photo and video reference
-   - icon reference
- - style footer and links
 
 # freeCodeCamp Product Landing Page Project
 
