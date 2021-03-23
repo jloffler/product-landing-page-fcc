@@ -11,7 +11,7 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 
 ## Goals
  - Pass freeCodeCamp tests
- - Use semantic and accesible HTML
+ - Use semantic and accesible HTML and CSS
  - Make it responsive
  - Make it actually look good
  
@@ -27,13 +27,3 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 - change svg image color in a text editor
 - tip of the iceberg for accessibility and screen readers
   - aria
-
-### References
-- mountain icon
-  - https://www.flaticon.com/free-icon/mountains_852115
-  - <div>Mountain icon made by <a href="https://www.freepik.com">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a></div>
-- photos
-
-### Tasks Left Unfinished Due to Time Constraints
-- accessibility for hamburger menu button
-  - should change look on :focus for keyboard only users
