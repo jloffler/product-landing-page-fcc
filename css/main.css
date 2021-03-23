@@ -83,6 +83,7 @@ header {
 .homepage-link {
   position: relative;
   padding: 10px 0 10px 45px;
+  margin-left: 48px; /* allow room for FCC Test Suite Hamburger */
   color: white;
   text-decoration: none;
   text-transform: uppercase;
